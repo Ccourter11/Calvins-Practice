@@ -3,12 +3,24 @@ h1 {
   display: flex;
 }
 nav {
-  background-color: lightcoral;
+  display: flex;
+  background-color: #c0a581;
+  font-family: "poppins", sans-serif;
+  min-height: 8vh;
+  align-items: center;
+
   /* height: 55%; */
+}
+.logo {
+  color: rgb(235, 232, 232);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
 }
 nav ul {
   display: flex;
   list-style: none;
   justify-content: center;
   justify-content: space-evenly;
+  width: 35%;
 }
