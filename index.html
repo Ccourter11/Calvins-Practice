@@ -7,7 +7,34 @@
   </head>
 
   <body>
-    <main id="container"></main>
+    <main>
+      <header>
+        <nav>
+          <div class="logo">
+            <h4>Wild Life Tracker</h4>
+          </div>
+          <ul class="nav-links">
+            <li>Animals</li>
+            <li>Facts</li>
+            <li>How to help</li>
+          </ul>
+        </nav>
+      </header>
+      <div class="form">
+        <form action="" method="get">
+          <label for="animals">Choose the animal you saw from the list:</label>
+          <input list="animals" name="animal" id="animal" />
+          <datalist id="animals">
+            <option value="Fox"></option>
+            <option value="Raccoon"></option>
+            <option value="Hawk"></option>
+            <option value="Coyote"></option>
+            <option value="Owl"></option>
+          </datalist>
+          <input type="submit" />
+        </form>
+      </div>
+    </main>
 
     <script type="module" src="./scripts/main.js"></script>
   </body>
